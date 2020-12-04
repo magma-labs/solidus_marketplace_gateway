@@ -1,0 +1,5 @@
+bump:
+  recurse: false
+  file: 'lib/solidus_marketplace_gateway/version.rb'
+  message: Bump SolidusMarketplaceGateway to %{version}
+  tag: true
