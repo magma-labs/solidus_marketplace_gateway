@@ -18,6 +18,7 @@ require 'solidus_dev_support/rspec/feature_helper'
 # in spec/support/ and its subdirectories.
 Dir["#{__dir__}/support/**/*.rb"].sort.each { |f| require f }
 
+require 'solidus_marketplace/factories'
 # Requires factories defined in lib/solidus_marketplace_gateway/factories.rb
 require 'solidus_marketplace_gateway/factories'
 
