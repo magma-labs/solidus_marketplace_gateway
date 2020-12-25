@@ -25,6 +25,8 @@ end
 
 gemspec
 
+gem 'solidus_marketplace', github: 'magma-labs/solidus_marketplace', branch: 'rails-6-support'
+
 # Use a local Gemfile to include development dependencies that might not be
 # relevant for the project or for other contributors, e.g. pry-byebug.
 #

@@ -30,6 +30,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency 'solidus_core', ['>= 2.0.0', '< 3']
+  spec.add_dependency 'solidus_marketplace'
   spec.add_dependency 'solidus_stripe'
   spec.add_dependency 'solidus_support', '~> 0.5'
 
